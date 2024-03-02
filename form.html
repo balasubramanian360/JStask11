@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="newjs.js" defer></script>
+  </head>
+  <body>
+
+    <!-- Form starts here -->
+    <div class="container">
+      <form action="" id="form" style="margin-top: 10px">
+        <h1>SignUp Form</h1>
+        <div class="input_group">
+          <label for="username">Fullname</label>
+          <input type="text" name="username" id="username" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="PhoneNumber">PhoneNumber</label>
+          <input type="number" name="PhoneNumber" id="PhoneNumber" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="password">Create Password</label>
+          <input type="password" name="password" id="password" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="gender" style="font-size: 18px">Gender</label>
+          <div style="margin-top: 4px">
+            <input type="radio" id="Male" name="Gender" value="Male" />Male
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="Female"
+              name="Gender"
+              value="Female"
+            />Female
+          </div>
+        </div>
+
+        <button type="menu">Submit</button>
+      </form>
+    </div>
+    <!-- Form ends here -->
+  </body>
+</html>

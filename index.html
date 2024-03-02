@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <script src="form.js" defer></script>
+  </head>
+  <body>
+    <!-- Form starts here -->
+    <div class="container">
+      <form action="" id="form">
+        <h1>Login Form</h1>
+        <div class="input_group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <div class="error"></div>
+        </div>
+        <a href="todolist.html">
+          <button class="btnSubmit" type="button">Login</button>
+        </a>
+        <p style="text-align: center" class="input_group">
+          👇 Create Account! If you not have a Account
+        </p>
+        <div style="text-align: center">
+          <a href="form.html"><button class="btnSignup" type="button">SignUP</button></a>
+        </div>
+      </form>
+    </div>
+    <!-- Form ends here -->
+  </body>
+</html>
